@@ -13,8 +13,8 @@ $(document).ready(() => {
                     </label>
                 </div>
                 <div name="fondo-4" class="pie h3 d-flex justify-content-center align-items-center click">
-                    <div name="text-color-1 text-center click">
-                        <label class="text-center click">
+                    <div name="text-color-1" class="text-center click">
+                        <label name="text-color-1" class="text-center click">
                             ${data.respondidas == data.total ? "Ver retroalimentación" : "Realizar"}
                         </label>
                     </div>
@@ -36,8 +36,8 @@ $(document).ready(() => {
                     </label>
                 </div>
                 <div name="fondo-4" class="pie h3 d-flex justify-content-center align-items-center click">
-                    <div name="text-color-1 text-center click">
-                        <label class="text-center click">
+                    <div class="text-center click">
+                        <label name="text-color-1" class="text-center click">
                             ${data.respondidas == data.total ? "Generar" : "Pendiente"}
                         </label>
                     </div>
