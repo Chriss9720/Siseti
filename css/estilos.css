@@ -167,19 +167,12 @@ legend {
 
 .icono {
     background-color: white;
-    margin-right: -10px;
     height: 30px;
     cursor: pointer;
-    border: 1px solid black;
-    border-radius: 25%;
 }
 
 .h-0 {
     height: 0px !important;
-}
-
-.m-n-icono {
-    margin-top: -5px;
 }
 
 .ancho {
@@ -205,4 +198,20 @@ legend {
 .icono-sm {
     width: 15px;
     cursor: pointer;
+}
+
+.cont-img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -10px;
+    background: white;
+}
+
+.img_1 {
+    margin-top: -10px;
 }

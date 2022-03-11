@@ -7,8 +7,12 @@ $(document).ready(() => {
             <div class="col-3 carta-ins mt-3">
                 <div class="h-0">
                     <div class="d-flex justify-content-end flex-column align-items-end">
-                        <img src="img/basura.png" class="img-fluid icono m-n-icono">
-                        <img src="img/editar.png" class="img-fluid icono mt-1">
+                        <div class="cont-img img_1">
+                            <img src="img/basura.png" class="img-fluid icono">
+                        </div>
+                        <div class="cont-img">
+                            <img src="img/editar.png" class="img-fluid icono">
+                        </div>
                     </div>
                 </div>
                 <div class="borde-instrumento h-100">
